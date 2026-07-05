@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel="stylesheet" href="TodoList/style.css">
+  </head>
+  <body>
+    <button class="js-theme-toggle" onclick="document.body.classList.toggle('dark');">🌙</button>
+    <p class="col">
+      TODO LIST APP
+    </p>
+
+    <input
+      class="js-input"
+      placeholder="Enter your task here"
+      onkeydown="handleAddTask(event);"
+    >
+    <input type="date" class="js-date">
+    <button class="js-add-button" onclick="addFunc();">Add Task</button>
+
+    <div class="todo-list"></div>
+
+    <script src="TodoList/todo.js"></script>
+  </body>
+</html>
