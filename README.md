@@ -15,9 +15,9 @@ A simple, clean todo list web app built with HTML, CSS, and vanilla JavaScript.
 ```
 project/
 ├── index.html
-├── style.css
 └── TodoList/
     └── todo.js
+    └── style.css
 ```
 
 ## How to Run
